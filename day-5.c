@@ -13,7 +13,7 @@ Output 2:
 Simple Interest=1050, Compound Interest=1125.76
 */
 
-/*
+
 #include <stdio.h>
 #include <math.h>
 int main() {
@@ -39,7 +39,6 @@ printf("compound interest is %.2f rs\n", CI);
 
 return 0;
 }
-*/
 
 
 
@@ -68,11 +67,20 @@ Output 2:
 */
 
 #include <stdio.h>
-int main() {
+int main () {
 
-int sec;   
+    int t;
 
-printf("enter time in seconds: ");
-scanf("%d", &sec);
+    printf("enter time in seconds");
+    scanf("%d", &t);
 
-int h, m, s;       // hour, minute, second
+    int h, m, s;
+    h = t / 3600;
+    m = t % 60;
+    s = t % 60;
+
+    printf("hours : minute : seconds is %d : %d : %d \n" , h, m, s);
+
+    return 0;
+
+}
