@@ -13,7 +13,7 @@ Output 2:
 After swap: 14 7
 */
 
-/*
+
 #include <stdio.h>
 int main () {
 
@@ -35,7 +35,7 @@ printf("now a = %d, b = %d\n", a, b);
 
 return 0;
 }
-*/
+
 
 
 
@@ -64,7 +64,7 @@ Output 2:
 Sum=55
 */
 
-/*
+
 #include <stdio.h>
 int main() {
 
@@ -79,4 +79,4 @@ printf("sum of first %d natural numbers is %d\n", n, sum);
 
 return 0;
 }
-*/
+

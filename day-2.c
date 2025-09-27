@@ -14,7 +14,7 @@ Area=21, Perimeter=20
 
 */
 
-/*
+
 #include <stdio.h>
 int main () {
  
@@ -36,7 +36,7 @@ printf("perimeter of rectangle is %d\n", perimeter);
 
 return 0;
 }
-*/
+
 
 
 
@@ -61,7 +61,7 @@ Area=28.27, Circumference=18.85
 
 */
   
-/*
+
 #include <stdio.h>
 int main() {
 
@@ -80,4 +80,4 @@ printf("circumference of circle is %f\n", circumference);
   
 return 0;
 }
-*/
+

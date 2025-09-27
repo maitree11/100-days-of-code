@@ -13,7 +13,7 @@ Output 2:
 Fahrenheit=212
 */
 
-/*
+
 #include <stdio.h>
 int main() {
 
@@ -30,7 +30,7 @@ printf("the converted temperature is %d\n", F);
 
 return 0;
 }
-*/
+
 
 
 
@@ -54,7 +54,7 @@ Output 2:
 After swap: 1 -1
 */
 
-/*
+
 #include <stdio.h>
 int main() {
  
@@ -78,4 +78,4 @@ printf("now a = %d, b = %d", a, b);
 
 return 0;
 }
-*/
+
